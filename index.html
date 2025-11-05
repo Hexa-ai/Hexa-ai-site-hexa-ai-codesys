@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexa-AI - Partenaire Expert CODESYS</title>
+    <!-- Chargement de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Importation de la police Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Suppression du bloc tailwind.config qui n'est pas interprété ici */
+
+        /* Style pour l'effet de survol sur les cartes "pilier" */
+        .pillar-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+        }
+        
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 leading-relaxed">
+
+    <!-- ===== BARRE DE NAVIGATION ===== -->
+    <!-- Correction: Utilisation directe du code hexadécimal pour le JIT de Tailwind -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-[#011e3d] border-b border-[#01152d] shadow-sm">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <!-- Logo (renvoie vers le site principal) -->
+            <a href="index.html" class="transition-opacity hover:opacity-80" title="Retour au site principal Hexa-AI">
+                <!-- Logo pour fond sombre -->
+                <img src="img/Hexa-AI white.png" alt="Hexa-AI" class="h-8 w-auto"> 
+            </a>
+            
+            <!-- Liens de navigation (pour écrans larges) -->
+            <ul class="hidden md:flex items-center space-x-8">
+                <li><a href="#solutions" class="text-gray-300 hover:text-white transition-colors">Nos Solutions CODESYS</a></li>
+                <li><a href="#references" class="text-gray-300 hover:text-white transition-colors">Références</a></li>
+                <!-- Correction: Utilisation directe du code hexadécimal -->
+                <li><a href="https://www.hexa-ai.fr" class="cta-button bg-[#009ee3] text-white text-sm font-semibold px-5 py-2 rounded-md shadow-lg hover:bg-[#0084c0] transform hover:-translate-y-0.5">Convergence IT/OT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== SECTION HÉROS (Adaptée CODESYS) ===== -->
+    <header class="relative overflow-hidden pt-24 md:pt-32 text-white">
+        <!-- Image de fond -->
+        <img src="img/lalit-kumar-HpPmiduLDC0-unsplash.jpg" alt="Arrière-plan technologique d'automatisme" class="absolute top-0 left-0 w-full h-full object-cover -z-20">
+        
+        <!-- Overlay sombre pour la lisibilité -->
+        <div class="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-75 -z-10"></div>
+
+        <!-- Contenu de la section -->
+        <div class="relative z-10">
+            <div class="container mx-auto px-6 py-20 md:py-28">
+                <div class="max-w-4xl">
+                    <h1 class="text-4xl md:text-6xl font-black leading-tight">
+                        Devenez Architecte de vos Projets d'Automatisme.
+                    </h1>
+                    <h2 class="mt-4 text-xl md:text-2xl font-light text-gray-200">
+                        En tant que Partenaire Expert, nous vous aidons à maîtriser CODESYS pour innover, standardiser et migrer vos applications complexes.
+                    </h2>
+                    <!-- Correction: Utilisation directe du code hexadécimal -->
+                    <a href="https://calendar.app.google/jhg4wPvdocK3UPop9" target="_blank" rel="noopener noreferrer" class="cta-button mt-10 inline-block bg-[#009ee3] text-white text-lg font-semibold px-10 py-4 rounded-lg shadow-lg hover:bg-[#0084c0] transform hover:-translate-y-1">
+                        Planifier une session de cadrage CODESYS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== SECTION DÉFIS (Les 3 Problématiques) ===== -->
+    <section id="defis" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+                Vous faites face à ces défis ?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center max-w-6xl mx-auto">
+                
+                <!-- Défi 1: Verrouillage Propriétaire -->
+                <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                    <!-- Correction: Utilisation directe du code hexadécimal -->
+                    <svg class="w-12 h-12 mx-auto mb-4 text-[#009ee3]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Verrouillage Propriétaire</h3>
+                    <p class="text-gray-600">Vous êtes bloqué par un écosystème matériel et logiciel unique (Siemens, Schneider...) qui limite vos choix et augmente vos coûts.</p>
+                </div>
+                
+                <!-- Défi 2: Standardisation Produit -->
+                <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                    <!-- Correction: Utilisation directe du code hexadécimal -->
+                    <svg class="w-12 h-12 mx-auto mb-4 text-[#009ee3]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM4 14a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2z"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Standardisation Produit</h3>
+                    <p class="text-gray-600">Vous devez développer un produit standard pour de moyennes séries, mais il doit rester flexible et personnalisable au cas par cas.</p>
+                </div>
+
+                <!-- Défi 3: Architecture Complexe -->
+                <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                    <!-- Correction: Utilisation directe du code hexadécimal -->
+                    <svg class="w-12 h-12 mx-auto mb-4 text-[#009ee3]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Architecture Complexe</h3>
+                    <p class="text-gray-600">Vous avez besoin d'architecturer un système complexe (passerelles, communication IT, Motion) et vous ne savez pas par où commencer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION SOLUTIONS (Les 3 Piliers CODESYS) ===== -->
+    <section id="solutions" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+                Nos Solutions d'Experts
+            </h2>
+            <p class="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+                Nous ne sommes pas un simple formateur. Nous sommes des ingénieurs-architectes. Nous utilisons CODESYS au quotidien sur nos projets les plus complexes.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Pilier 1: Expertise & Formation Avancée -->
+                <div class="pillar-card bg-white p-8 rounded-lg shadow-md border border-gray-200 transition-all duration-300 flex flex-col">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Pilier 1 : Expertise & Formation Avancée</h3>
+                    <p class="text-gray-700 mb-4 flex-grow">
+                        Montez en compétence sur les sujets qui font la différence : architectures complexes, développement "objet" (POO), création de librairies, intégration de protocoles IT (MQTT, HTTP).
+                    </p>
+                    <!-- Correction: Utilisation directe du code hexadécimal -->
+                    <a href="#contact" class="mt-auto text-lg font-semibold text-[#009ee3] hover:text-[#0084c0]">Discuter de vos besoins de formation →</a>
+                </div>
+
+                <!-- Pilier 2: Ingénierie & Co-développement -->
+                <div class="pillar-card bg-white p-8 rounded-lg shadow-md border border-gray-200 transition-all duration-300 flex flex-col">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Pilier 2 : Ingénierie & Co-développement</h3>
+                    <p class="text-gray-700 mb-4 flex-grow">
+                        Nous vous aidons à développer votre produit standard. Nous concevons le cœur de votre application (librairies, architecture) pour la rendre générique, performante et flexible.
+                    </p>
+                    <!-- Correction: Utilisation directe du code hexadécimal -->
+                    <a href="#contact" class="mt-auto text-lg font-semibold text-[#009ee3] hover:text-[#0084c0]">Lancer votre projet d'ingénierie →</a>
+                </div>
+
+                <!-- Pilier 3: Matériel & Solutions Ouvertes -->
+                <div class="pillar-card bg-white p-8 rounded-lg shadow-md border border-gray-200 transition-all duration-300 flex flex-col">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Pilier 3 : Matériel & Solutions Ouvertes</h3>
+                    <p class="text-gray-700 mb-4 flex-grow">
+                        Sortez du verrouillage matériel. Nous vous aidons à choisir et à intégrer des contrôleurs ouverts et performants, comme notre propre passerelle HAI-P200-4G basée sur CODESYS & Raspberry Pi.
+                    </p>
+                    <!-- Correction: Utilisation directe du code hexadécimal -->
+                    <a href="#contact" class="mt-auto text-lg font-semibold text-[#009ee3] hover:text-[#0084c0]">Découvrir notre matériel →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ===== SECTION RÉFÉRENCES (La Preuve CODESYS) ===== -->
+    <section id="references" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
+                Ils utilisent nos standards CODESYS
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg border border-gray-200">
+                    <img src="img/konstantinos-papadopoulos-qjoqH5JB15w-unsplash.jpg" alt="Projet pour un opérateur ferroviaire national" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Opérateur ferroviaire national</h3>
+                        <p class="text-gray-700">Développement d'un standard CODESYS pour la gestion d'éclairage de gares, transformant un projet de programmation en une simple configuration web.</p>
+                    </div>
+                </div>
+
+                <!-- Référence 2: IMAGEAU -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg border border-gray-200">
+                    <img src="img/wolfgang-weiser-VJF5vFbKgeM-unsplash.jpg" alt="Projet pour un armateur fluvial/maritime" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Armateur fluvial</h3>
+                        <p class="text-gray-700">Architecture CODESYS virtualisée (VM) pour collecter des données capteurs (Zigfox/MQTT) et les transmettre au SI (HTTP).</p>
+                    </div>
+                </div>
+
+                <!-- Référence 3: GNSA -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg border border-gray-200">
+                    <img src="img/shoeib-abolhassani-IgU5TItVojA-unsplash.jpg" alt="Projet pour un constructeur de machines spéciales" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Spécialiste de l'instrumentation hydrologique</h3>
+                        <p class="text-gray-700">Sauvetage et ré-ingénierie d'un produit C++ obsolète vers un standard CODESYS, pour le rendre à la fois générique et personnalisable.</p>
+                    </div>
+                </div>
+                
+                <!-- Référence 4: Notre Produit -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg border border-gray-200">
+                    <img src="img/hai-p200-4g.jpeg" alt="Notre contrôleur HAI-P200-4G" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Notre Produit : HAI-P200-4G</h3>
+                        <p class="text-gray-700">Notre propre contrôleur industriel, basé sur CODESYS et Raspberry Pi, conçu pour la télémaintenance et le monitoring IIoT ouvert.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION CTA FINAL (Adaptée CODESYS) ===== -->
+    <section id="contact" class="py-24 bg-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                Prêt à devenir un Architecte CODESYS ?
+            </h2>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+                Que vous ayez un projet d'ingénierie complexe ou un besoin de formation pointu, discutons-en.
+            </p>
+            <!-- Correction: Utilisation directe du code hexadécimal -->
+            <a href="https://calendar.app.google/jhg4wPvdocK3UPop9" target="_blank" rel="noopener noreferrer" class="cta-button inline-block bg-[#009ee3] text-white text-lg font-bold px-10 py-4 rounded-lg shadow-2xl hover:bg-[#0084c0] transform hover:-translate-y-1">
+                Planifier votre session de cadrage
+            </a>
+        </div>
+    </section>
+
+    <!-- ===== PIED DE PAGE ===== -->
+    <footer class="py-16 bg-codesys-navbar text-gray-400">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-10">
+                <a href="https://www.hexa-ai.fr" class="inline-flex items-center text-[#009ee3] hover:text-[#0084c0] transition-colors duration-300 text-lg">
+                    <!-- Changement d'icône pour suggérer la "stratégie" ou la "vue d'ensemble" -->
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"></path></svg>
+                    Au-delà de l'expertise CODESYS, découvrez notre  savoir-faire en Convergence IT/OT.
+                </a>
+            </div>
+            
+
+            <a href="https://www.codesys.com/the-company/partner-network/system-partners/" target="_blank" rel="noopener noreferrer" class="inline-flex flex-col items-center group">
+                <p class="text-lg font-semibold text-gray-700 mb-2 group-hover:text-[#009ee3] transition-colors">Hexa-AI - Partenaire Expert CODESYS</p>
+                 <!-- Ajout du logo CODESYS partenaire -->
+                <img src="img/CodesysPartner.png" alt="CODESYS Partenaire" class="h-20 w-auto transition-transform group-hover:scale-105">
+            </a>
+            <!-- Coordonnées et Lien Social -->
+            <div class="mt-10 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="text-sm text-gray-400 text-center md:text-left">
+                    <p><strong>Hexa-AI</strong></p>
+                    <p>Bureau B2, Bâtiment Terraditta</p>
+                    <p>287 rue Barthélémy Thimonnier, 69530 BRIGNAIS, France</p>
+                    <p class="mt-2"><a href="mailto:contact@hexa-ai.fr" class="hover:text-white">contact@hexa-ai.fr</a></p>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="https://www.linkedin.com/company/hexaai" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors" aria-label="Suivez-nous sur LinkedIn">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <p class="mt-8 text-sm">&copy; 2025 Hexa-AI. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- ===== BOUTON "RETOUR EN HAUT" ===== -->
+    <!-- Correction: Utilisation directe du code hexadécimal -->
+    <a href="#" id="to-top-button" class="fixed bottom-8 right-8 z-50 p-3 bg-[#009ee3] text-white rounded-full shadow-lg hover:bg-[#0084c0] transition-opacity duration-300 opacity-0 pointer-events-none" aria-label="Retour en haut">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>
+    </a>
+
+    <script>
+        const toTopButton = document.getElementById('to-top-button');
+
+        window.addEventListener('scroll', () => {
+            // Affiche le bouton après 300px de défilement
+            if (window.scrollY > 300) {
+                toTopButton.classList.remove('opacity-0', 'pointer-events-none');
+            } else {
+                toTopButton.classList.add('opacity-0', 'pointer-events-none');
+            }
+        });
+    </script>
+</body>
+</html>
